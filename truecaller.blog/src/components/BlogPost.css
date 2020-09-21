@@ -1,0 +1,40 @@
+/* .wp-block-image img{
+   
+} */
+
+.block-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+.blog-area{
+    padding: 20px;
+    font-size: smaller;
+    text-align: left;
+}
+
+.main-image{
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.pagination {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.pagination li {
+    margin: 0px 4px;
+    list-style-type: none;
+}
+
+.break-me{
+    margin: 0px 4px;
+}
+
+.blog-content {
+    font-size: small;
+    font-weight: lighter;
+}

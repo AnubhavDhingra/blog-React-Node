@@ -1,0 +1,44 @@
+.conatiner-listing {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 80% auto;
+}
+
+.categories h5 {
+    margin-bottom: 30px;
+}
+
+.listing-unordered li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0px 15px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.listing-unordered li:before {
+    content: '';
+    border-left: 4px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+}
+
+.categories {
+    font-size: smaller;
+    text-align: left;
+}
+/* 
+.next .previous {
+    display: none;
+} */
+.card{
+    overflow: hidden;
+    font-size: small;
+    height: 500px;
+}
+img{
+    max-width: 100%;
+}
